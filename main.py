@@ -142,35 +142,30 @@ table_fig.update_layout(
     height=400
 )
 
-# Create images directory if it doesn't exist
-if not os.path.exists('images'):
-    os.makedirs('images')
 
-# Get timestamp for unique filenames
-timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
 
 # Save population chart
-pop_fig.write_image(f"images/population_top10_{timestamp}.png")
+pop_fig.write_image(f"population_top10_.png")
 
 # Save poverty chart
-poverty_fig.write_image(f"images/poverty_by_region_{timestamp}.png")
+poverty_fig.write_image(f"poverty_by_region_.png")
 
 # Save education chart
-edu_fig.write_image(f"images/education_top10_{timestamp}.png")
+edu_fig.write_image(f"education_top10_.png")
 
 # Save pie chart
-pie_fig.write_image(f"images/region_population_pie_{timestamp}.png")
+pie_fig.write_image(f"region_population_pie_.png")
 
 # Save histogram
-income_hist.write_image(f"images/income_distribution_{timestamp}.png")
+income_hist.write_image(f"income_distribution_.png")
 
 # Save new charts
-box_fig.write_image(f"images/income_boxplot_{timestamp}.png")
-reg_fig.write_image(f"images/education_income_regression_{timestamp}.png")
-scatter_fig.write_image(f"images/population_poverty_scatter_{timestamp}.png")
+box_fig.write_image(f"income_boxplot_.png")
+reg_fig.write_image(f"education_income_regression_.png")
+scatter_fig.write_image(f"population_poverty_scatter_.png")
 
 # Save table
-table_fig.write_image(f"images/summary_statistics_{timestamp}.png")
+table_fig.write_image(f"summary_statistics_.png")
 
 # Still show interactive plots in browser
 pop_fig.show()
