@@ -49,7 +49,7 @@ This dataset provides a mix of demographic, economic, and geographic information
 #### Bar Charts
 
 **Name**: Top 10 states by population 2020  
-([image](population_top10_.png))
+![Population Chart](./population_top10_.png)
 
 **Is this display useful / interesting?** : Yes  
 **Interpretation**: California, Texas, and Florida dominate the population rankings, collectively accounting for about 28% of the US population. The data shows a significant concentration in these three states, with California having nearly 40 million residents. Notably, the top 10 states represent diverse regions, though the West and Southeast regions are most prominent.
@@ -67,7 +67,7 @@ pop_fig = px.bar(
 ```
 
 **Name**: Average poverty rate by region  
-([image](poverty_by_region_.png))
+![Poverty Chart](./poverty_by_region_.png)
 
 **Is this display useful / interesting?** : Yes  
 **Interpretation**: The Southeast region shows the highest average poverty rate (around 18%), while the Northeast has the lowest (approximately 11%). This regional disparity highlights significant economic inequality across US regions, with the Southeast facing greater economic challenges. The pattern suggests a need for targeted economic development in higher-poverty regions.
@@ -85,7 +85,7 @@ poverty_fig = px.bar(
 ```
 
 **Name**: Top 10 states by education level  
-([image](education_top10_.png))
+![Education Chart](./education_top10_.png)
 
 **Is this display useful / interesting?** : Yes  
 **Interpretation**: The District of Columbia leads with over 52% of residents holding bachelor's degrees or higher, significantly above other states. Northeast states dominate the top rankings, suggesting stronger higher education systems or greater job markets for educated workers in this region. There's a clear regional pattern in educational attainment.
@@ -104,10 +104,10 @@ edu_fig = px.bar(
 #### Pie Chart
 
 **Name**: Regional Population Distribution  
-([image](region_population_pie_png))
+![Population Pie](./region_population_pie_.png)
 
 **Is this display useful / interesting?** : Yes  
-**Interpretation**: The population distribution shows significant variation across regions. The South and West regions contain the largest share of the US population, while the Northeast has a smaller share despite its high population density. This distribution reflects historical migration patterns and economic opportunities across regions.
+**Interpretation**: The population distribution shows significant variation across regions. The South East and West regions contain the largest share of the US population, while the South West has a smallest share.
 
 **Code:**
 ```python
@@ -125,7 +125,7 @@ pie_fig = px.pie(
 #### Histogram
 
 **Name**: histogram of median household income  
-([image](income_distribution_.png))
+![Income Histogram](./income_distribution_.png)
 
 **Is this display useful / interesting?** : Yes  
 **Interpretation**: The distribution of median household incomes shows right-skewed pattern, with most states clustering between $40,000-$60,000. Northeast states tend to have higher median incomes, while Southeast states generally fall in lower income brackets. The spread indicates significant economic inequality across states.
@@ -146,7 +146,7 @@ income_hist = px.histogram(
 #### Box Plot
 
 **Name**: Income Distribution by Region  
-([image](income_boxplot_.png))
+![Income Box Plot](./income_boxplot_.png)
 
 **Is this display useful / interesting?** : Yes  
 **Interpretation**: The Northeast region shows both the highest median income and largest variation in income levels. The Southeast consistently shows lower median incomes with less variation. This visualization effectively demonstrates both regional income disparities and within-region income variation.
@@ -166,7 +166,7 @@ box_fig = px.box(
 #### Linear Regression
 
 **Name**: Education vs Income  
-([image](education_income_regression_.png))
+![Education Income Regression](./education_income_regression_.png)
 
 **Is this display useful / interesting?** : Yes  
 **Interpretation**: There is a strong positive correlation between education levels and median household income. For every percentage point increase in bachelor's degree holders, there's a corresponding increase in median household income. This relationship holds across regions, though with some regional variations.
@@ -190,7 +190,7 @@ reg_fig = px.scatter(
 #### Scatter Plot
 
 **Name**: Population vs Poverty  
-([image](population_poverty_scatter_.png))
+![Population Poverty Scatter](./population_poverty_scatter_.png)
 
 **Is this display useful / interesting?** : Yes
 **Interpretation**: There's no clear correlation between state population size and poverty rates, suggesting that poverty is independent of state size. States of similar population can have widely different poverty rates, indicating that other factors (like education, industry mix, and policy) may be more important in determining poverty levels.
@@ -214,7 +214,7 @@ scatter_fig = px.scatter(
 
 ### Measures of Center and Spread
 
-([image](summary_statistics_.png))
+![Summary Statistics](./summary_statistics_.png)
 
 **Code:**
 ```python
