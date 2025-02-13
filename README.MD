@@ -262,3 +262,33 @@ table_fig.update_layout(
     height=400
 )
 ```
+
+### Additional Analysis Questions
+
+#### Education Disparities
+- Why do some states have lower education levels?
+  - Impact of education funding per capita
+  - Correlation with state GDP
+  - Historical patterns of investment in education
+  - Access to higher education institutions
+  - Rural vs urban population distribution
+
+#### Poverty Rate Analysis
+- What factors contribute to varying poverty rates?
+  - Economic indicators:
+    - Job market diversity
+    - Industry concentration
+    - Unemployment rates
+    - Cost of living adjustments
+  - Social factors:
+    - Access to healthcare
+    - Public transportation availability
+    - Housing affordability
+    - Social service programs
+
+#### Regional Economic Patterns
+- Why do certain regions show consistent patterns?
+  - Northeast: Higher education, higher income
+  - Southeast: Higher poverty rates, lower education
+  - West: Mixed outcomes, high variation
+  - Midwest: Moderate across metrics
